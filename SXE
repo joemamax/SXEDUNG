@@ -1,0 +1,73 @@
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(224, 111, 255)
+main.Position = UDim2.new(0.114365414, 0, 0.28323698, 0)
+main.Selectable = true
+main.Size = UDim2.new(0, 553, 0, 218)
+main.Active = true
+main.Draggable = true
+
+Race.Name = "Race"
+Race.Parent = main
+Race.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Race.Position = UDim2.new(0.710182369, 0, 0.197151095, 0)
+Race.Size = UDim2.new(0, 109, 0, 50)
+Race.Font = Enum.Font.GothamBold
+Race.Text = "Race"
+Race.TextColor3 = Color3.fromRGB(255, 255, 255)
+Race.TextSize = 14.000
+Race.TextWrapped = true
+Race.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+Swagmode.Name = "Swagmode"
+Swagmode.Parent = main
+Swagmode.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Swagmode.Position = UDim2.new(0.0924335495, 0, 0.201615408, 0)
+Swagmode.Size = UDim2.new(0, 114, 0, 50)
+Swagmode.Font = Enum.Font.GothamBold
+Swagmode.Text = "SwagMode"
+Swagmode.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swagmode.TextSize = 14.000
+Swagmode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+crash.Name = "crash"
+crash.Parent = main
+crash.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+crash.Position = UDim2.new(0.391698897, 0, 0.201615378, 0)
+crash.Size = UDim2.new(0, 119, 0, 50)
+crash.Font = Enum.Font.GothamBold
+crash.Text = "Crash"
+crash.TextColor3 = Color3.fromRGB(255, 255, 255)
+crash.TextSize = 14.000
+crash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+as.Name = "as"
+as.Parent = main
+as.BackgroundColor3 = Color3.fromRGB(220, 93, 255)
+as.Position = UDim2.new(-0.000729552237, 0, 0.87070781, 0)
+as.Size = UDim2.new(0, 553, 0, 28)
+as.Font = Enum.Font.SourceSans
+as.Text = "Made By dung                   dung 2112"
+as.TextColor3 = Color3.fromRGB(0, 0, 0)
+as.TextSize = 14.000
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(224, 111, 255)
+title.Position = UDim2.new(0, 0, -0.00247730524, 0)
+title.Size = UDim2.new(0, 553, 0, 26)
+title.Font = Enum.Font.SourceSans
+title.Text = " SXE"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextSize = 14.000
